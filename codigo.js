@@ -1,7 +1,7 @@
 //!capitulo 7
 //let ventana = window.open("https://www.youtube.com/watch?v=hOO-Lr39tkQ"); //creo y abro una ventana
 //ventana.close(); //cierro la ventana creada
-confirm("jennifer eres marica");
+//onfirm("jennifer eres marica");
 /*
 todo Problemas de cofla
 */
@@ -54,3 +54,24 @@ boton.addEventListener("click", (e) => {
 	span.innerHTML = "Correcto</br>";
 	contenedor2.appendChild(span);
 });
+
+//? eventos de la interfaz
+/*
+let imagen = document.querySelector(".img");
+imagen.addEventListener("error", () => {
+	console.log("Ha sucedido un erro");
+});*/
+
+//?uso del select
+
+let texto = document.querySelector(".text"); //* para obtener el texto seleccionado de un input o un textarea
+texto.addEventListener("select", (e) => {
+	let inicio = e.target.selectionStart;
+	let fin = e.target.selectionEnd;
+	contenedor2.innerHTML = texto.value.substring(inicio, fin);
+});
+
+//? temporizadores
+const temporizador = setTimeout(() => {
+	console.log("Hola");
+}, 10000);
