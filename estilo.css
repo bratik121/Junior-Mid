@@ -35,3 +35,12 @@
 	background-image: url("https://gildedwallpapers.com/wp-content/uploads/2020/01/tokyo-ghoul-ken-kaneki-personalities-uhd-4k-wallpaper.jpg");
 	overflow: scroll;
 }
+
+.text {
+	padding: 10px;
+	outline: none;
+	background-color: aqua;
+	color: brown;
+	border: none;
+	border-radius: 12px;
+}
