@@ -1,0 +1,119 @@
+.contenedor {
+	background-color: black;
+	color: #fff;
+	padding: 20px;
+}
+
+.titulo {
+	text-align: center;
+}
+.boton {
+	margin-top: 50px;
+	width: 250px;
+	height: 50px;
+	border: solid 1px #4834d4;
+	color: #4b38d5;
+	font-size: 20px;
+	line-height: 23px;
+	transition: 0.1s ease all;
+}
+
+.boton:hover {
+	box-shadow: 0 4px 20px rgba(0, 11, 255, 0.35);
+}
+.boton:active {
+	border: none;
+	box-shadow: 0 4px 20px rgba(0, 11, 255, 0.35);
+}
+
+.contenedor-2 {
+	height: 200px;
+	background-attachment: local;
+	object-fit: cover;
+	background-size: 100%;
+
+	background-image: url("https://gildedwallpapers.com/wp-content/uploads/2020/01/tokyo-ghoul-ken-kaneki-personalities-uhd-4k-wallpaper.jpg");
+	overflow: scroll;
+}
+
+.text {
+	padding: 10px;
+	outline: none;
+	background-color: aqua;
+	color: brown;
+	border: none;
+	border-radius: 12px;
+}
+.form {
+	width: 70%;
+	margin: auto;
+	background-color: coral;
+	border-radius: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.form-container {
+	width: 100%;
+	display: flex;
+	padding: 5px;
+	justify-content: space-between;
+}
+.cont {
+	width: 45%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.grid-container {
+	margin-top: 20px;
+	display: grid;
+	grid-template-rows: 50px;
+	grid-template-columns: repeat(4, minmax(min-content, max-content));
+	grid-auto-rows: 50px;
+	grid-gap: 15px;
+}
+.grid-item {
+	padding: 15px;
+	border: 1px solid rgb(252, 106, 106);
+}
+
+.boton-confirmacion {
+	padding: 10px;
+	margin-top: 15px;
+	width: 532px;
+}
+
+.notes-form {
+	width: 80%;
+	margin: 20px auto;
+	background-color: cyan;
+	text-align: center;
+	padding: 10px;
+}
+
+.form_texto {
+	display: block;
+	margin-top: 15px;
+}
+
+.modal-bg {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	transition: ease display 3s;
+}
+
+.modal {
+	background-color: #fff;
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
